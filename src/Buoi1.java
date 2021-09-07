@@ -74,16 +74,100 @@ public class Buoi1 {
             }else {
                 System.out.println("0");
             }
-         */
-        int number1 = 0;
-        int number2 = 0;
+            int number1 = 0;
+            int number2 = 0;
 
-        // number1 lớn hơn 0 và number1 bằng number2
-        if (number1 > 0 && number1 == number2){
-            System.out.println("Number1 lớn hơn 0 và bằng number2");
-        }else{
-            System.out.println("Không thỏa");
-        }
+             number1 lớn hơn 0 và number1 bằng number2
+            if (number1 > 0 && number1 == number2){
+                System.out.println("Number1 lớn hơn 0 và bằng number2");
+            }else{
+                System.out.println("Không thỏa");
+            }
+
+            Biểu thức 3 ngôi
+            int a = 5;
+            int b = 10;
+
+            bieuthuc ? bieuthuc true :bieuthuc false
+
+            String message = a > b ? "A lớn B" : "A bé hơn hoặc bằng B";
+            System.out.println(message);
+
+            int age = 20;
+
+            age >= 18 :Vị thành niên
+            age< 18 :Dưới vị thành niên
+
+            String message = age >= 18 ? "Vị thành niên" : "Dưới vị thành niên";
+            System.out.println(message);
+
+            4 : Câu điều kiện switch case
+
+            int month = 20;
+            switch (month){
+                case 1 :
+                case 2 :
+                case 3 :
+                    System.out.println("Quý 1");
+                    break;
+                case 4:
+                case 5:
+                case 6:
+                    System.out.println("Quý 2");
+                    break;
+                case 7:
+                case 8:
+                case 9:
+                    System.out.println("Quý 3");
+                    break;
+                case 10:
+                case 11:
+                case 12:
+                    System.out.println("Quý 4");
+                    break;
+                default:
+                    System.out.println("Không thuộc quý");
+                    break;
+            }
+            System.out.println("Tiếp tục xử lý");
+
+            int idCard = 3;
+            int total = 200000;
+            // idcard
+            // Nếu là 1 -> giảm 10%
+            // Nếu là 2 -> giảm 15%
+            // Nếu là 3 -> giẩm 20%
+            // Không thỏa -> Không có giảm giá
+
+            // Xuất
+            // Giảm bao nhiêu phần trăm
+            // Tổng tiền phải trả = 180000
+            String message = "";
+            float percentSale = 0.0f;
+
+            switch (idCard) {
+                case 1:
+                    message = "Giảm 10%";
+                    percentSale = 0.1f;
+                    break;
+                case 2:
+                    message = "Giảm 15%";
+                    percentSale = 0.15f;
+                    break;
+                case 3:
+                    message = "Giảm 20%";
+                    percentSale = 0.2f;
+                    break;
+                default:
+                    message = "Không được giảm giá";
+                    percentSale = 0f;
+            }
+
+            System.out.println(message);
+            System.out.println("Tổng tiền " + (total - (total * percentSale)));
+         */
+
+
 
 
     }
