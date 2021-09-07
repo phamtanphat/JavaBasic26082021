@@ -167,16 +167,22 @@ public class Buoi1 {
             System.out.println("Tổng tiền " + (total - (total * percentSale)));
          */
 
-        //5 : Mảng array
+        //5 : Mảng array không tăng hoặc giảm kích thước của mảng
+        // Vị trí bắt đầu từ 0
+        // trụy cập phần tử trong mảng
+        // mang[index]
 
         // kieudulieu[] tenbien =
 
         // Cách khai báo 1 : biết trước phần tử trong mảng
-        String[] arrayNames = {"Tèo","Tí","Tủn"};
+        String[] arrayNames = {"Tèo", "Tí", "Tủn"};
+
+
+        System.out.println(arrayNames[0]);
+
+
         // Cách khai báo 2 : chỉ biết kích thước nhưng chưa biết giá trị cụ thể của phần tử
-        int[] arrayPercentSales = new int[10];
-
-
+        //int[] arrayPercentSales = new int[10];
 
 
     }
