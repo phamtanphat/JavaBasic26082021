@@ -167,9 +167,19 @@ public class Buoi1 {
             System.out.println("Tổng tiền " + (total - (total * percentSale)));
          */
 
+        //5 : Mảng array
+
+        // kieudulieu[] tenbien =
+
+        // Cách khai báo 1 : biết trước phần tử trong mảng
+        String[] arrayNames = {"Tèo","Tí","Tủn"};
+        // Cách khai báo 2 : chỉ biết kích thước nhưng chưa biết giá trị cụ thể của phần tử
+        int[] arrayPercentSales = new int[10];
+
 
 
 
     }
+
 }
 
