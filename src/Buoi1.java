@@ -184,69 +184,89 @@ public class Buoi1 {
             int[] arrayPercentSales = new int[10];
             arrayPercentSales[0] = 10;
             System.out.println(arrayPercentSales[0]);
-         */
-        // 6 : Vòng lặp for
-//        String[] arrayNames = {"Tèo", "Tí", "Tủn" ,"Tuấn" , "Lan" ,"Điệp"};
-//
-//        for(int i = 0 ; i < arrayNames.length ; i++ ){
-//            System.out.println(arrayNames[i]);
-//        }
 
-        // % chia lay dư
-        // / chia lấy phần nguyên
-//        int a = 5;
-//        int b = 3;
-//        int ketQua = a % b;
-//
-//        System.out.println(ketQua);
+            6 :Vòng lặp for
+            String[] arrayNames = {"Tèo", "Tí", "Tủn", "Tuấn", "Lan", "Điệp"};
 
-        // Sử dụng vòng lặp for duyệt từ 1 -> 100
-        // in ra các số chẳn
+            for (int i = 0; i < arrayNames.length; i++) {
+                System.out.println(arrayNames[i]);
+            }
 
-//        for (int i = 1 ; i <= 100 ; i++){
-//            if ( i % 2 == 0){
-//                System.out.println(i);
-//            }
-//        }
+             %chia lay dư
+                    / chia lấy phần nguyên
+            int a = 5;
+            int b = 3;
+            int ketQua = a % b;
 
-        // Sử dụng vòng lặp for duyệt từ 1 -> 100
-        // in ra các số lẻ
-//        for (int i = 1 ; i <= 100 ; i++){
-//            if (i % 2 == 1){
-//                System.out.println(i);
-//            }
-//        }
+            System.out.println(ketQua);
 
+            Sử dụng vòng lặp for duyệt từ 1 ->100
+            in ra các số chẳn
 
-        // Sử dụng vòng lặp for duyệt từ 1 -> 100
-        // in ra các số chia 3 dư 1
-//        for (int i = 1 ; i <= 100 ; i++){
-//            if (i % 3 == 1){
-//                System.out.println(i);
-//            }
-//        }
-
-
-        // Kiểm tra số nguyên tố
-        int number = 157;
-
-        if (number <= 1) {
-            System.out.println("Không phải là số nguyên tố");
-        } else {
-
-            int count = 0;
-            for (int i = 2; i < number; i++) {
-                if ( number % i == 0){
-                    count++;
+            for (int i = 1; i <= 100; i++) {
+                if (i % 2 == 0) {
+                    System.out.println(i);
                 }
             }
 
-            if (count <= 0){
-                System.out.println("Số " + number + " là số nguyên tố");
-            }else{
-                System.out.println("Số " + number + " không phải là số nguyên tố");
+            Sử dụng vòng lặp for duyệt từ 1 ->100
+            in ra các số lẻ
+            for (int i = 1; i <= 100; i++) {
+                if (i % 2 == 1) {
+                    System.out.println(i);
+                }
             }
+
+
+            Sử dụng vòng lặp for duyệt từ 1 ->100
+            in ra các số chia 3 dư 1
+            for (int i = 1; i <= 100; i++) {
+                if (i % 3 == 1) {
+                    System.out.println(i);
+                }
+            }
+
+
+            Kiểm tra số nguyên tố
+            int number = 157;
+
+            if (number <= 1) {
+                System.out.println("Không phải là số nguyên tố");
+            } else {
+
+                int count = 0;
+                for (int i = 2; i < number; i++) {
+                    if (number % i == 0) {
+                        count++;
+                    }
+                }
+
+                if (count <= 0) {
+                    System.out.println("Số " + number + " là số nguyên tố");
+                } else {
+                    System.out.println("Số " + number + " không phải là số nguyên tố");
+                }
+            }
+            1 - > 1000 :có bao nhiu số nguyên tố và in ra nó
+         */
+
+        // 7 : Vòng lặp while
+
+        int max = 100;
+        int i = 1;
+        long start = System.currentTimeMillis();
+        while (i <= max) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+            i++;
         }
+        long end = System.currentTimeMillis();
+        long result = end - start;
+        System.out.println("Thời gian " + result);
+
+
+        // Dùng while in số chẳn từ 1 -> 100
 
 
     }
