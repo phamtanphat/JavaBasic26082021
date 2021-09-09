@@ -165,26 +165,42 @@ public class Buoi1 {
 
             System.out.println(message);
             System.out.println("Tổng tiền " + (total - (total * percentSale)));
+
+            5 :Mảng array không tăng hoặc giảm kích thước của mảng
+            Vị trí bắt đầu từ 0
+            trụy cập phần tử trong mảng
+            mang[index]
+
+            kieudulieu[] tenbien =
+
+            Cách khai báo 1 :biết trước phần tử trong mảng
+            String[] arrayNames = {"Tèo", "Tí", "Tủn"};
+
+
+            System.out.println(arrayNames[0]);
+
+
+            Cách khai báo 2 :chỉ biết kích thước nhưng chưa biết giá trị cụ thể của phần tử
+            int[] arrayPercentSales = new int[10];
+            arrayPercentSales[0] = 10;
+            System.out.println(arrayPercentSales[0]);
          */
-
-        //5 : Mảng array không tăng hoặc giảm kích thước của mảng
-        // Vị trí bắt đầu từ 0
-        // trụy cập phần tử trong mảng
-        // mang[index]
-
-        // kieudulieu[] tenbien =
-
-        // Cách khai báo 1 : biết trước phần tử trong mảng
-//        String[] arrayNames = {"Tèo", "Tí", "Tủn"};
+        // 6 : Vòng lặp for
+//        String[] arrayNames = {"Tèo", "Tí", "Tủn" ,"Tuấn" , "Lan" ,"Điệp"};
 //
-//
-//        System.out.println(arrayNames[0]);
+//        for(int i = 0 ; i < arrayNames.length ; i++ ){
+//            System.out.println(arrayNames[i]);
+//        }
+
+        // % chia lay dư
+        // / chia lấy phần nguyên
+        int a = 5;
+        int b = 3;
+        int ketQua = a % b;
+
+        System.out.println(ketQua);
 
 
-        // Cách khai báo 2 : chỉ biết kích thước nhưng chưa biết giá trị cụ thể của phần tử
-        int[] arrayPercentSales = new int[10];
-        arrayPercentSales[0] = 10;
-        System.out.println(arrayPercentSales[0]);
 
 
     }
