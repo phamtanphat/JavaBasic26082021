@@ -175,14 +175,16 @@ public class Buoi1 {
         // kieudulieu[] tenbien =
 
         // Cách khai báo 1 : biết trước phần tử trong mảng
-        String[] arrayNames = {"Tèo", "Tí", "Tủn"};
-
-
-        System.out.println(arrayNames[0]);
+//        String[] arrayNames = {"Tèo", "Tí", "Tủn"};
+//
+//
+//        System.out.println(arrayNames[0]);
 
 
         // Cách khai báo 2 : chỉ biết kích thước nhưng chưa biết giá trị cụ thể của phần tử
-        //int[] arrayPercentSales = new int[10];
+        int[] arrayPercentSales = new int[10];
+        arrayPercentSales[0] = 10;
+        System.out.println(arrayPercentSales[0]);
 
 
     }
