@@ -203,13 +203,50 @@ public class Buoi1 {
         // Sử dụng vòng lặp for duyệt từ 1 -> 100
         // in ra các số chẳn
 
-        for (int i = 1 ; i <= 100 ; i++){
-            if ( i % 2 == 0){
-                System.out.println(i);
+//        for (int i = 1 ; i <= 100 ; i++){
+//            if ( i % 2 == 0){
+//                System.out.println(i);
+//            }
+//        }
+
+        // Sử dụng vòng lặp for duyệt từ 1 -> 100
+        // in ra các số lẻ
+//        for (int i = 1 ; i <= 100 ; i++){
+//            if (i % 2 == 1){
+//                System.out.println(i);
+//            }
+//        }
+
+
+        // Sử dụng vòng lặp for duyệt từ 1 -> 100
+        // in ra các số chia 3 dư 1
+//        for (int i = 1 ; i <= 100 ; i++){
+//            if (i % 3 == 1){
+//                System.out.println(i);
+//            }
+//        }
+
+
+        // Kiểm tra số nguyên tố
+        int number = 157;
+
+        if (number <= 1) {
+            System.out.println("Không phải là số nguyên tố");
+        } else {
+
+            int count = 0;
+            for (int i = 2; i < number; i++) {
+                if ( number % i == 0){
+                    count++;
+                }
+            }
+
+            if (count <= 0){
+                System.out.println("Số " + number + " là số nguyên tố");
+            }else{
+                System.out.println("Số " + number + " không phải là số nguyên tố");
             }
         }
-
-
 
 
     }
