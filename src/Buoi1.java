@@ -194,11 +194,20 @@ public class Buoi1 {
 
         // % chia lay dư
         // / chia lấy phần nguyên
-        int a = 5;
-        int b = 3;
-        int ketQua = a % b;
+//        int a = 5;
+//        int b = 3;
+//        int ketQua = a % b;
+//
+//        System.out.println(ketQua);
 
-        System.out.println(ketQua);
+        // Sử dụng vòng lặp for duyệt từ 1 -> 100
+        // in ra các số chẳn
+
+        for (int i = 1 ; i <= 100 ; i++){
+            if ( i % 2 == 0){
+                System.out.println(i);
+            }
+        }
 
 
 
