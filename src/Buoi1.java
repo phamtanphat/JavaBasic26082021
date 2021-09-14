@@ -248,26 +248,33 @@ public class Buoi1 {
                 }
             }
             1 - > 1000 :có bao nhiu số nguyên tố và in ra nó
+
+            7 :Vòng lặp while
+
+            int max = 100;
+            int i = 1;
+            long start = System.currentTimeMillis();
+            while (i <= max) {
+                if (i % 2 == 0) {
+                    System.out.println(i);
+                }
+                i++;
+            }
+            long end = System.currentTimeMillis();
+            long result = end - start;
+            System.out.println("Thời gian " + result);
+
+
+            Dùng while in số chẳn từ 1 ->100
          */
 
-        // 7 : Vòng lặp while
+        int a = 10;
 
-        int max = 100;
-        int i = 1;
-        long start = System.currentTimeMillis();
-        while (i <= max) {
-            if (i % 2 == 0) {
-                System.out.println(i);
-            }
-            i++;
-        }
-        long end = System.currentTimeMillis();
-        long result = end - start;
-        System.out.println("Thời gian " + result);
+        do {
+            System.out.println("Xử lý");
+        }while (a < 10);
 
-
-        // Dùng while in số chẳn từ 1 -> 100
-
+        System.out.println("Tiếp tục");
 
     }
 
