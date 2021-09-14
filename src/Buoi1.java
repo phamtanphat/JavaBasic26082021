@@ -266,15 +266,19 @@ public class Buoi1 {
 
 
             Dùng while in số chẳn từ 1 ->100
+
+            int a = 10;
+
+            do {
+                System.out.println("Xử lý");
+                System.out.println("Giá trị của a = " + a);
+                a++;
+            }while (a < 15);
+
+            System.out.println("Tiếp tục");
          */
 
-        int a = 10;
 
-        do {
-            System.out.println("Xử lý");
-        }while (a < 10);
-
-        System.out.println("Tiếp tục");
 
     }
 
